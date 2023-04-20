@@ -19,12 +19,18 @@ li {
 /** hero image **/
 
 #hero-image {
-    background: url("../css/images/Hohner.jpg") no-repeat fixed center top;
-    height: 600px;
+    background: url("../css/images/pexels-pixabay-235985.jpg") no-repeat center top;
+    height: 1000px;
     width: 100%;
-    background-size: 80%;
+    background-size: fill;
     
+}
 
+#conor-image {
+    background: url("../css/images/DSC_0047editedbw.jpg") no-repeat center center;
+    height: 600px;
+    width: 33%;
+    
 }
 
 p {
