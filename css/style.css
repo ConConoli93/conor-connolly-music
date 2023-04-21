@@ -1,19 +1,55 @@
 body {
-    background-color: #000818;
+    background: url("../css/images/pexels-pixabay-235985.jpg") no-repeat center top;
+    height: 1000px;
+    width: 100%;
+    background-size: fill;
+
+    /**background-color: #000818;**/
 }
 
 h1, h3, h4 {
+    font-family: 'Vollkorn', serif;;
     text-align: center;
     color: #FFFFF0;
     
 }
 
+h1 {
+    font-size: 70px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
 ul {
     text-align: center;
+    font-family: 'Vollkorn', serif;;
+    color: #FFFFF0;
+    
 }
 
 li {
     display: inline-block;
+}
+
+#nav-menu {
+    font-size: 150%;
+    letter-spacing: 1px;
+    
+}
+
+#nav-menu li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid #FFFFF0;
 }
 
 /** hero image **/
@@ -27,15 +63,19 @@ li {
 }
 
 #conor-image {
-    background: url("../css/images/DSC_0047editedbw.jpg") no-repeat center center;
-    height: 600px;
-    width: 33%;
-    
+    background: url("../css/images/DSC_0047editedbw.jpg");
+    height: 680px;
+    width: 700px;
+    margin-left: 27%;
+    background-repeat: no-repeat;
+    background-position: 120% 20%;
+    background-size: cover;
 }
 
 p {
     text-align: justify;
     color: #FFFFF0 ;
+    font-family: 'Vollkorn', serif;;
 }
 
 /** footer styling **/
