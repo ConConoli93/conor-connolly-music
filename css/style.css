@@ -24,6 +24,10 @@ h3 {
     letter-spacing: 1px;
 }
 
+h4 {
+    font-size: 30px;
+}
+
 ul {
     text-align: center;
     font-family: 'Vollkorn', serif;;
@@ -49,7 +53,15 @@ li {
 #nav-menu a {
     text-decoration: none;
     color: inherit;
-    border-bottom: 1px solid #FFFFF0;
+    border-bottom: 2px solid #FFFFF0;
+}
+
+#nav-menu a:hover {
+    color: darkslategrey;
+}
+
+.active {
+    -webkit-text-fill-color: darkslategray;
 }
 
 /** hero image **/
@@ -70,12 +82,15 @@ li {
     background-repeat: no-repeat;
     background-position: 120% 20%;
     background-size: cover;
+    
 }
 
 p {
     text-align: justify;
     color: #FFFFF0 ;
-    font-family: 'Vollkorn', serif;;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    margin: 40px;
 }
 
 /** footer styling **/
@@ -103,4 +118,5 @@ footer {
 
 .footer-text {
     text-align: center;
+    font-family: 'Vollkorn', serif;
 }
