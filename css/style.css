@@ -1,5 +1,5 @@
 body {
-    background: url("../css/images/pexels-pixabay-235985.jpg") no-repeat center top;
+    background: url("../css/images/pexels-pixabay-235985.jpg") center top;
     height: 1000px;
     width: 100%;
     background-size: fill;
@@ -120,13 +120,25 @@ footer {
     text-align: center;
     font-family: 'Vollkorn', serif;
 }
+/** Upcoming Gigs page css **/
 
 #group-image {
     background: url("../css/images/20230117_123921.jpg");
-    height: 680px;
-    width: 700px;
-    margin-left: 27%;
+    height: 500px;
+    width: 800px;
+    margin-left: 22%;
     background-repeat: no-repeat;
-    background-position: 120% 20%;
+    background-position: center;
     background-size: cover;
+    padding: 0%;
+    border-color: #FFFFF0;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.group-image-caption {
+    text-align: center;
+    display: block;
+    
+    
 }
