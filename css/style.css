@@ -120,3 +120,13 @@ footer {
     text-align: center;
     font-family: 'Vollkorn', serif;
 }
+
+#group-image {
+    background: url("../css/images/20230117_123921.jpg");
+    height: 680px;
+    width: 700px;
+    margin-left: 27%;
+    background-repeat: no-repeat;
+    background-position: 120% 20%;
+    background-size: cover;
+}
