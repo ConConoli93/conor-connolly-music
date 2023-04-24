@@ -78,7 +78,7 @@ li {
     background: url("../css/images/DSC_0047editedbw.jpg");
     height: 680px;
     width: 700px;
-    margin-left: 27%;
+    margin-left: 23%;
     background-repeat: no-repeat;
     background-position: 120% 20%;
     background-size: cover;
@@ -169,4 +169,12 @@ tr {
 
 .table-info tr {
     font-size: 150%;
+}
+
+
+/** Tutoring page styling **/
+
+#alison-link {
+    margin-left: 30%;
+   
 }
