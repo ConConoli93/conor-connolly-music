@@ -82,6 +82,9 @@ li {
     background-repeat: no-repeat;
     background-position: 120% 20%;
     background-size: cover;
+    border-color: #FFFFF0;
+    border-width: 10px;
+    border-style: solid;
     
 }
 
@@ -140,5 +143,30 @@ footer {
     text-align: center;
     display: block;
     
-    
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+}
+
+.table-contents {
+    font-family: 'Vollkorn', serif;
+    font-size: 120%; 
+}
+tr {
+    width: 200%;
+    text-align: center;
+}
+
+.header-row th {
+    font-weight: bolder;
+    color: #FFFFF0;
+}
+
+.table-info tr {
+    font-size: 150%;
 }
