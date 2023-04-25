@@ -187,7 +187,50 @@ tr {
 
 .form {
     font-family: 'Vollkorn', serif;
-    text-align: center;
     color: #FFFFF0;
     font-size: 20px;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
 }
+
+/** Text field styling with help from W3 Schools**/
+
+input {
+    width: 18%;
+    padding: 10px 10px;
+    margin: 5px;
+    background-color: darkslategrey;
+    color: #FFFFF0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+textarea {
+    padding: 10px 10px;
+    margin: 5px;
+    background-color: darkslategrey;
+    color: #FFFFF0;
+    border-radius: 5px;
+    resize: none;
+    text-align: center;
+    
+}
+
+input [type=submit] {
+    font-family: 'Vollkorn', serif;
+}
+
+/**input [type=radio] {
+    display: inline;
+}
+
+label {
+    display: inline;
+}**/
+
+.radio {
+    display: inline-block;
+    align-items: center;
+    font-size: 15px;
+  }
