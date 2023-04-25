@@ -1,17 +1,17 @@
 /** initial styling for the page background **/
 
 body {
-    background: url("../css/images/pexels-pixabay-235985.jpg") center top;
-    height: 1000px;
+    background: url("../css/images/old-map-background.jpg") center top;
     width: 100%;
-    background-size: fill;
+    max-width: 1500px;
+    margin: 0 auto;
 
 }
 
 h1, h3, h4 {
     font-family: 'Vollkorn', serif;;
     text-align: center;
-    color: #FFFFF0;
+    color: black;
     
 }
 
@@ -34,7 +34,7 @@ h4 {
 ul {
     text-align: center;
     font-family: 'Vollkorn', serif;;
-    color: #FFFFF0;
+    color: black;
     
 }
 
@@ -70,19 +70,19 @@ li {
 /** nav menu color styling when hovered over **/
 
 #nav-menu a:hover {
-    color: darkslategrey;
+    color: white;
 }
 
 /** nav menu background coloring styling when page is active **/
 
 .active {
-    -webkit-text-fill-color: darkslategray;
+    -webkit-text-fill-color: white;
 }
 
 /** background image styling for whole website **/
 
 #hero-image {
-    background: url("../css/images/pexels-pixabay-235985.jpg") no-repeat center top;
+    background: url("../css/images/old-map-background.jpg") no-repeat center top;
     height: 1000px;
     width: 100%;
     background-size: fill;
@@ -92,10 +92,11 @@ li {
 /** home page main image styling **/
 
 #conor-image {
-    background: url("../css/images/DSC_0047editedbw.jpg");
+    background: url("../css/images/conor-box.jpg");
     height: 680px;
     width: 700px;
-    margin-left: 23%;
+    margin-right: auto;
+    margin-left: auto;
     background-repeat: no-repeat;
     background-position: 120% 20%;
     background-size: cover;
@@ -105,19 +106,25 @@ li {
     
 }
 
+article {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 20px 10px;
+}
+
 /** home page paragraph styling **/
 
 p {
     text-align: justify;
-    color: #FFFFF0 ;
+    color: black;
     font-family: 'Vollkorn', serif;
-    font-size: 20px;
+    font-size: 1.3rem;
     margin: 40px;
 }
 
 /** Embed video link on home page **/
 .tradfest-link {
-    margin-left: 15%;
+    margin-left: 16%;
 }
 
 /** footer styling **/
@@ -151,64 +158,6 @@ footer {
     text-align: center;
     font-family: 'Vollkorn', serif;
 }
-/** upcoming gigs page css **/
-
-/** upcoming gigs page - initial group image and styling **/
-
-#group-image {
-    background: url("../css/images/20230117_123921.jpg");
-    height: 500px;
-    width: 800px;
-    margin-left: 22%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 0%;
-    border-color: #FFFFF0;
-    border-width: 10px;
-    border-style: solid;
-}
-
-/** group image caption styling **/
-
-.group-image-caption {
-    text-align: center;
-    display: block;
-    
-}
-
-/** gigs table initial styling **/
-
-table {
-    width: 100%;
-}
-
-th {
-    font-weight: bold;
-}
-
-.table-contents {
-    font-family: 'Vollkorn', serif;
-    font-size: 120%; 
-}
-tr {
-    width: 200%;
-    text-align: center;
-}
-
-/** failed attempt to style table headers **/
-
-.header-row th {
-    font-weight: bolder;
-    color: #FFFFF0;
-}
-
-/** table data styling **/
-
-.table-info tr {
-    font-size: 150%;
-}
-
 
 /** Tutoring page styling **/
 
@@ -273,4 +222,12 @@ input [type=submit] {
     display: inline-block;
     align-items: center;
     font-size: 15px;
+  }
+
+  /** Media Queries **/
+
+  @media screen (max-width: 1200px) {
+
+  }
+    
   }
