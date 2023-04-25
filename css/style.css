@@ -1,10 +1,11 @@
+/** initial styling for the page background **/
+
 body {
     background: url("../css/images/pexels-pixabay-235985.jpg") center top;
     height: 1000px;
     width: 100%;
     background-size: fill;
 
-    /**background-color: #000818;**/
 }
 
 h1, h3, h4 {
@@ -28,6 +29,8 @@ h4 {
     font-size: 30px;
 }
 
+/** nav menu basic styling **/
+
 ul {
     text-align: center;
     font-family: 'Vollkorn', serif;;
@@ -35,9 +38,13 @@ ul {
     
 }
 
+/** nav menu display in inline block) **/
+
 li {
     display: inline-block;
 }
+
+/** nav menu styling (received help from course examples) **/
 
 #nav-menu {
     font-size: 150%;
@@ -45,10 +52,14 @@ li {
     
 }
 
+/** nav menu styling (received help from course examples) **/
+
 #nav-menu li {
     list-style-type: none;
     margin-right: 20px;
 }
+
+/** nav menu styling (received help from course examples) **/
 
 #nav-menu a {
     text-decoration: none;
@@ -56,15 +67,19 @@ li {
     border-bottom: 2px solid #FFFFF0;
 }
 
+/** nav menu color styling when hovered over **/
+
 #nav-menu a:hover {
     color: darkslategrey;
 }
+
+/** nav menu background coloring styling when page is active **/
 
 .active {
     -webkit-text-fill-color: darkslategray;
 }
 
-/** hero image **/
+/** background image styling for whole website **/
 
 #hero-image {
     background: url("../css/images/pexels-pixabay-235985.jpg") no-repeat center top;
@@ -73,6 +88,8 @@ li {
     background-size: fill;
     
 }
+
+/** home page main image styling **/
 
 #conor-image {
     background: url("../css/images/DSC_0047editedbw.jpg");
@@ -88,6 +105,8 @@ li {
     
 }
 
+/** home page paragraph styling **/
+
 p {
     text-align: justify;
     color: #FFFFF0 ;
@@ -96,12 +115,19 @@ p {
     margin: 40px;
 }
 
+/** Embed video link on home page **/
+.tradfest-link {
+    margin-left: 15%;
+}
+
 /** footer styling **/
 
 footer {
     height: 150px;
     text-align: center;
 }
+
+/** social network links tab - help received from love running project **/
 
 .social-network {
     text-align: center;
@@ -119,11 +145,15 @@ footer {
     
 }
 
+/** copyright footer text styling **/
+
 .footer-text {
     text-align: center;
     font-family: 'Vollkorn', serif;
 }
-/** Upcoming Gigs page css **/
+/** upcoming gigs page css **/
+
+/** upcoming gigs page - initial group image and styling **/
 
 #group-image {
     background: url("../css/images/20230117_123921.jpg");
@@ -139,11 +169,15 @@ footer {
     border-style: solid;
 }
 
+/** group image caption styling **/
+
 .group-image-caption {
     text-align: center;
     display: block;
     
 }
+
+/** gigs table initial styling **/
 
 table {
     width: 100%;
@@ -162,10 +196,14 @@ tr {
     text-align: center;
 }
 
+/** failed attempt to style table headers **/
+
 .header-row th {
     font-weight: bolder;
     color: #FFFFF0;
 }
+
+/** table data styling **/
 
 .table-info tr {
     font-size: 150%;
@@ -173,6 +211,8 @@ tr {
 
 
 /** Tutoring page styling **/
+
+/** embed youtube link alignment **/
 
 #alison-link {
     margin-left: 30%;
@@ -185,6 +225,8 @@ tr {
     text-align: center;
 }
 
+/** overall form styling for the contact page **/
+
 .form {
     font-family: 'Vollkorn', serif;
     color: #FFFFF0;
@@ -194,7 +236,7 @@ tr {
     margin: 0%;
 }
 
-/** Text field styling with help from W3 Schools**/
+/** text field styling with help from w3 schools**/
 
 input {
     width: 18%;
@@ -205,6 +247,8 @@ input {
     border-radius: 5px;
     text-align: center;
 }
+
+/** contact form textarea box styling **/
 
 textarea {
     padding: 10px 10px;
@@ -217,17 +261,13 @@ textarea {
     
 }
 
+/** attempt at styling contact form submit button **/
+
 input [type=submit] {
     font-family: 'Vollkorn', serif;
 }
 
-/**input [type=radio] {
-    display: inline;
-}
-
-label {
-    display: inline;
-}**/
+/** styling the radio buttons on contact page **/
 
 .radio {
     display: inline-block;
