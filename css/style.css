@@ -178,3 +178,16 @@ tr {
     margin-left: 30%;
    
 }
+
+/** Contact page styling **/
+
+.contact-text {
+    text-align: center;
+}
+
+.form {
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    color: #FFFFF0;
+    font-size: 20px;
+}

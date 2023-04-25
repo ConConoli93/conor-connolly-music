@@ -9,20 +9,59 @@
     <title>Conor Connolly Music</title>
 </head>
 <body>
-    <h1>Conor Connolly</h1>
-    <h3>Button Accordion - Vocals - Piano Accompaniment</h3>
+    <header>
+        <h1>Conor Connolly</h1>
+        <h3>Button Accordion - Vocals - Piano Accompaniment</h3>
 
-    <div>
-        <ul id="nav-menu">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="upcoming-gigs.html">Upcoming Gigs</a></li>
-            <li><a href="tutoring.html">Tutoring</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
+        <div>
+            <ul id="nav-menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="upcoming-gigs.html">Upcoming Gigs</a></li>
+                <li><a href="tutoring.html">Tutoring</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
 
-        </ul>
+            </ul>
 
-    </div>
+        </div>
+    </header>
 
+    <main>
+        <h4>
+            Contact
+        </h4>
+
+        <p class="contact-text">
+            For queries regarding bookings, tutoring and others, drop me a message 
+            in the contact form below!
+        </p>
+
+        <form class="form">
+            <label for="full-name">Full Name:</label>
+            <br>
+            <input type="text" id="full-name" name="full-name">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <p class="form">Query Type:</p>
+            <br>
+            <label for="query-type">Booking</label>
+            <br>
+            <input type="radio" id="booking" name="query-type" value="Booking">
+            <br>
+            <label for="query-type">Tutoring</label>
+            <br>
+            <input type="radio" id="tutoring" name="query-type" value="Tutoring">
+            <br>
+            <label for="message">Message:</label>
+            <br>
+            <input type="text" id="message" name="message">
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </main>
     <footer>
         <ul class="social-network">
             <li>
