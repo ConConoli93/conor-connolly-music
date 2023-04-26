@@ -20,10 +20,11 @@ There is one primary font used throughout the website which is Vollkorn complime
 ### Navigation Bar
 The navigation bar situated under the the main title is a mainstay throughout the website featuring on all three pages. It consists of Home, Tutoring and Contact bars. The bar contains a hover element which highlights the individual tab as the cursor passes over it. Along with this each individual tab remains highlighted while the page is active moving on to the others as they are selected.
 
+![image] (css/images/conor-box.jpg)
+
 ### Hero Images
 
 There are two images featured on this website:
 
 The Background Image:
 
-![image](../conor-connolly-music/css/images/conor-box.jpg)
