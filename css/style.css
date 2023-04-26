@@ -124,10 +124,7 @@ p {
 
 /** Embed video link on home page **/
 #tradfest-link {
-    height: 500px;
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
+    margin-left:16%;
 }
 
 /** footer styling **/
@@ -228,6 +225,40 @@ input [type=submit] {
     font-size: 15px;
   }
 
-  /** Media Queries **/
+  /** media Queries **/
 
- 
+  /** for medium screens 992px wide **/
+
+  @media screen and (max-width: 992px) {
+    #tradfest-link {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  /** for smaller devices down to I Phone 7 **/
+
+  @media screen and (max-width: 400px) {
+    #tradfest-link {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        contain: content;
+    }
+
+    #conor-image {
+        height: 45%;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .article {
+        margin-top: 30px;
+        padding: 0%;
+    }
+
+    #alison-link {
+        margin-left: auto;
+    }
+  }
