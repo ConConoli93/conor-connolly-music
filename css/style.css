@@ -123,8 +123,11 @@ p {
 }
 
 /** Embed video link on home page **/
-.tradfest-link {
-    margin-left: 16%;
+#tradfest-link {
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /** footer styling **/
@@ -199,13 +202,14 @@ input {
 
 /** contact form textarea box styling **/
 
-textarea {
+input, textarea {
+    width: 60%;
+    max-width: 360px;
     padding: 10px 10px;
     margin: 5px;
     background-color: darkslategrey;
     color: #FFFFF0;
     border-radius: 5px;
-    resize: none;
     text-align: center;
     
 }
@@ -226,8 +230,4 @@ input [type=submit] {
 
   /** Media Queries **/
 
-  @media screen (max-width: 1200px) {
-
-  }
-    
-  }
+ 
