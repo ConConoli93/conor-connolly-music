@@ -28,3 +28,124 @@ There are two images featured on this website:
 
 The Background Image:
 
+The background image is that of an old map like background which gives the website an aged but emotional experience.
+
+The Home Page Image:
+
+This is a picture of the site focus, Conor Connolly in black and white.
+
+### Biography
+Contains the biography of the site focus, Conor Connolly.
+
+### Tradfest YouTube Clip
+This is an embed video from YouTube of Conor playing on the national Irish language broadcaster TG4.
+
+### Tutoring
+Contains information on Conor's teaching philosophy and methods.
+
+### Tutoring Clip
+Contains a clip of Conor giving a beginner course on Button Accordion.
+
+### Contact Form
+Includes a Full Name, Email and Message fields with a submit button to be sent to the server.
+
+## Technology Used
+
+-   HTML
+-   CSS
+-   [Google Fonts](https://fonts.google.com/)
+-   [Font Awesome](https://fontawesome.com/)
+-   [Am I Responsive?](http://ami.responsivedesign.is/)
+
+
+## Testing
+
+-   The site works for the most part on all screen sizes, from widescreen to I Phone 7, I achieved this using DevTools.
+-   I tested the site on my own mobile and my brother's to check responsiveness
+-   I ensured the form submits properly and requires input in the relevant fields
+-   All social media links in the footer work correctly and open in new tabs
+
+## Validation & Accessibility
+
+-   The website passes W3C HTML Validator with no errors returned.
+-   The website passes W3C CSS Validator with no errors returned.
+-   I passed the website through the  [PowerMapper](https://www.powermapper.com/)  Web Accessibility tool to provide an insight into my accessibility issues with my HTML and CSS, and fixed what I could within the time constraint.
+
+## Issues and Solutions
+
+- I had an issue with viewing the pages on smaller devices which was fixed by a media query and some online help.
+- The website is still experiencing difficulty in showing the YouTube embed videos on smaller devices.
+
+
+## Deployment
+
+My website was deployed using GitHub pages. 
+
+I did this by:
+
+-   In the GitHub repository, navigate to Settings
+-   Select Pages from the left-hand navigation bar
+-   Select branch:main and folder:/root and hit Save
+-   A link to the live website is provided
+
+As I make changes to my website in the future, the site will update automatically.  
+
+## Further Features
+
+- Other features that I would like to include but didn't have the time or resources to do would be a Upcoming Gigs page to list the my confirmed gigs.
+- A gallery page to feature images from my musical travels around the world. 
+
+## Credits
+
+### Websites that I Used
+- [https://stackoverflow.com/questions/29463586/why-is-my-container-background-image-so-zoomed-in](https://stackoverflow.com/questions/29463586/why-is-my-container-background-image-so-zoomed-in)
+
+  
+
+- [https://www.creativebloq.com/typography/free-web-fonts-1131610/2](https://www.creativebloq.com/typography/free-web-fonts-1131610/2)
+
+  
+
+- [https://www.pexels.com/photo/empty-brown-canvas-235985/](https://www.pexels.com/photo/empty-brown-canvas-235985/)
+
+  
+
+- [https://www.w3schools.com/howto/howto_js_active_element.asp](https://www.w3schools.com/howto/howto_js_active_element.asp)
+
+  
+
+- [https://jsfiddle.net/ZhLk4/1/](https://jsfiddle.net/ZhLk4/1/)
+
+  
+
+- [https://www.digitalocean.com/community/tutorials/how-to-style-a-table-with-css](https://www.digitalocean.com/community/tutorials/how-to-style-a-table-with-css)
+
+  
+
+- [https://stackoverflow.com/questions/51424578/embed-youtube-code-is-not-working-in-html](https://stackoverflow.com/questions/51424578/embed-youtube-code-is-not-working-in-html)
+
+  
+
+- [https://dev.to/deammer/embed-responsive-youtube-videos-in-2021-5dkh](https://dev.to/deammer/embed-responsive-youtube-videos-in-2021-5dkh)
+
+  
+
+- [https://nekocalc.com/px-to-rem-converter](https://nekocalc.com/px-to-rem-converter)
+
+  
+
+- [https://stackoverflow.com/questions/60653365/use-aria-label-to-make-a-form-accessible](https://stackoverflow.com/questions/60653365/use-aria-label-to-make-a-form-accessible)
+
+
+### Image Sources
+
+The images for this website were a mixture of my own and  an online resource.
+
+- conor-box.jpg was from my own collections
+- old-map-background.jpg was obtained from [https://www.pexels.com/photo/empty-brown-canvas-235985/](https://www.pexels.com/photo/empty-brown-canvas-235985/)
+
+
+
+### Acknowledgements
+
+My heartfelt thanks to my mentor, Brian Macharia, for his patience and time during this project. 
