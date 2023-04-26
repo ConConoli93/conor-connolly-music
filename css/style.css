@@ -16,17 +16,17 @@ h1, h3, h4 {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 4.375rem;
     letter-spacing: 1px;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 2.5rem;
     letter-spacing: 1px;
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 /** nav menu basic styling **/
@@ -221,7 +221,7 @@ input [type=submit] {
 .radio {
     display: inline-block;
     align-items: center;
-    font-size: 15px;
+    font-size: 0.938rem;
   }
 
   /** media Queries **/
