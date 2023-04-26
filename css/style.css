@@ -241,6 +241,7 @@ input [type=submit] {
   @media screen and (max-width: 400px) {
     #tradfest-link {
         max-width: 100%;
+        width: 95%;
         margin-left: auto;
         margin-right: auto;
         contain: content;
@@ -259,6 +260,10 @@ input [type=submit] {
     }
 
     #alison-link {
+        max-width: 100%;
+        width: 95%;
         margin-left: auto;
+        margin-right: auto;
+        contain: content;
     }
   }
